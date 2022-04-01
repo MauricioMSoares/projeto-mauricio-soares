@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AcquaTec | Login</title>
+    <title>AcquaTec | Cadastro</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
@@ -15,23 +15,26 @@
             <ul class="navbar">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="#">Simulador</a></li>
-                <li class="agora"><a href="#">Login</a></li>
-                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li class="agora"><a href="#">Cadastro</a></li>
             </ul>
         </div>
     </div>
     <div class="banner">
-        <div class="container login">
-            <div class="card">
-                <h2>Olá de volta!</h2>
+        <div class="container cadastro">
+            <div class="card" id="cardCadastro">
+                <h2>Bem vindo!</h2>
                 <form>
+                    <label for="nomeInput">Nome:</label>
+                    <input type="text" id="nomeInput">
+
                     <label for="emailInput">E-mail:</label>
                     <input type="text" id="emailInput">
 
                     <label for="senhaInput">Senha:</label>
                     <input type="password" id="senhaInput">
 
-                    <button type="button">Entrar</button>
+                    <button type="button">Cadastrar</button>
                 </form>
             </div>
         </div>

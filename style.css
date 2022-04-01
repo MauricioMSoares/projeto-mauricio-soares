@@ -53,10 +53,51 @@ body {
     justify-content: center;
 }
 
+.banner .container.cadastro {
+    height: 630px;
+    justify-content: center;
+}
+
 .banner p {
     font-size: 36px;
     width: 280px;
     margin-left: 20%;
+}
+
+.container.imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img {
+    width: 160px;
+    margin-top: 60px;
+}
+
+.container.subtitles {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.subtitulo {
+    font-size: 24px;
+    color: #E6005A;
+    font-weight: bold;
+}
+
+.container.texts {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.descricao {
+    font-size: 22px;
+    width: 250px;
+    color: #292C34;
 }
 
 .footer {
@@ -84,6 +125,10 @@ body {
 
 .card h2 {
     margin: 0;
+}
+
+#cardCadastro {
+    height: 425px;
 }
 
 form {
