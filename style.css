@@ -42,6 +42,11 @@ body {
     background-size: cover;
 }
 
+.banner.cadastro {
+    background-image: url('imgs/aguas-vivas.jpg');
+    background-size: cover;
+}
+
 .banner .container {
     height: 550px;
     display: flex;
@@ -49,12 +54,16 @@ body {
     align-items: center;
 }
 
+.container.cadastro {
+    font-family: 'Varela Round', 'Exo 2', sans-serif;
+}
+
 .banner .container.login {
     justify-content: center;
 }
 
 .banner .container.cadastro {
-    height: 630px;
+    height: 680px;
     justify-content: center;
 }
 
@@ -128,7 +137,8 @@ body {
 }
 
 #cardCadastro {
-    height: 425px;
+    height: 475px;
+    border-radius: 10px;
 }
 
 form {
@@ -161,4 +171,9 @@ form button {
     border: 0;
     border-radius: 5px;
     cursor: pointer;
+}
+
+#buttonCadastro {
+    font-family: 'Varela Round', 'Arial', sans-serif;
+    width: 140px;
 }
